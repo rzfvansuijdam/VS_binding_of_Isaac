@@ -11,7 +11,7 @@ public class PlayerHealth : Health
     {
         starthealth = 100;
         health = starthealth;
-        alive = true;
+        alive = true; 
 
     }
 

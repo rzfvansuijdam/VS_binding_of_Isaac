@@ -29,7 +29,7 @@ public class EnemyHealth : Health
     void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.CompareTag("bullet"))
-        {
+        { 
             TakeDamage(25);
         }
     }

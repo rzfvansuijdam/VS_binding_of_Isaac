@@ -19,7 +19,7 @@ public class Health : MonoBehaviour
         if (health <= 0)
         {
             health = 0;
-            alive = false;
+            alive = false; 
         }
 
         health -= value;
