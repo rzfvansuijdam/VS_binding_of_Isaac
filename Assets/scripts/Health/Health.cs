@@ -3,22 +3,21 @@
 public class Health : MonoBehaviour
 {
     protected float health;
-
-    public float getHealth
-    {
-        get { return health; }
-        set { health -= value; }
-    }
-
     protected float starthealth;
+    protected float maxHealth;
     protected bool alive = true;
 
-    public void Die()
+    public virtual void Die()
     {
     }
 
-    public virtual void TakeDemage(float amount)
+    public virtual void RemoveHealth(float amount)
     {
         health -= amount;
+    }
+
+    public virtual void AddHealth(float amount)
+    {
+        health += amount;
     }
 }
