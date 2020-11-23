@@ -12,7 +12,7 @@ public class EnemyHealth : Health
         health = starthealth;
 
 
-    }
+    } 
 
     private void Update()
     {

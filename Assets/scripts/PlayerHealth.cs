@@ -15,7 +15,7 @@ public class PlayerHealth : Health
 
     }
 
-    void OnCollisionEnter(Collision col) 
+    void OnCollisionEnter(Collision col)  
     {
         if (col.gameObject.CompareTag("Enemy"))
         {
