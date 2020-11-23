@@ -45,12 +45,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void shoot(float x, float y)
+    public void Shoot(float x, float y)
     {
         GameObject bullet = Instantiate(_bulletPrefab, transform.position, transform.rotation) as GameObject;
-        bullet.AddComponent<Rigidbody2D>().gravityScale = 0;
-        //if statment in vector ? if true : if false;
-        bullet.GetComponent<Rigidbody2D>().velocity = new Vector3(
+        Rigidbody2D rigidbody = bullet.AddComponent<Rigidbody2D>();
+        rigidbody.gravityScale = 0;
+        rigidbody.velocity = new Vector3(
             (x < 0) ? Mathf.Floor(x) * _bulletSpeed : Mathf.Ceil(x) * _bulletSpeed,
             (y < 0) ? Mathf.Floor(y) * _bulletSpeed : Mathf.Ceil(y) * _bulletSpeed,
             0

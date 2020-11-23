@@ -13,27 +13,14 @@ public class PlayerHealth : Health
 
     public override void RemoveHealth(float amount)
     {
-        if (health - amount < 0)
-        {
-            health = 0;
-            updateUI();
-            Die();
-            return;
-        }
+        base.RemoveHealth(amount);
         updateUI();
-        health -= amount;
     }
 
     public override void AddHealth(float amount)
     {
-        if (health + amount > maxHealth)
-        {
-            health = maxHealth;
-            updateUI();
-            return;
-        }
+        base.AddHealth(amount);
         updateUI();
-        health += amount;
     }
 
     public void updateUI()

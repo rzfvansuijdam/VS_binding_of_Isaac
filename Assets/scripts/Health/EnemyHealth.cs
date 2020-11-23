@@ -12,23 +12,12 @@ public class EnemyHealth : Health
 
     public override void RemoveHealth(float amount)
     {
-        if (health - amount < 0)
-        {
-            health = 0;
-            Die();
-            return;
-        }
-        health -= amount;
+        base.RemoveHealth(amount);
     }
 
     public override void AddHealth(float amount)
     {
-        if (health + amount > maxHealth)
-        {
-            health = maxHealth;
-            return;
-        }
-        health += amount;
+        base.RemoveHealth(amount);
     }
 
     public override void Die()
