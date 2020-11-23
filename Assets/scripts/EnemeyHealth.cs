@@ -2,37 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class EnemyHealth : Health
 {
-
-    void Start()
+    private void Start()
     {
         starthealth = 100;
         health = starthealth;
-
-
-    } 
-
-    private void Update()
-    {
-
-
-
-        if (health <= 0) 
-        {
-            Destroy(this.gameObject);
-        }
     }
 
-
-    void OnTriggerEnter(Collider col)
+    public override void RemoveHealth(float amount)
     {
-        if (col.gameObject.CompareTag("bullet"))
-        { 
-            TakeDamage(25);
-        }
+        health -= amount;
+    }
+
+    public override void AddHealth(float amount)
+    {
+        health += amount;
+    }
+
+    public override void Die()
+    {
     }
 }
-
-

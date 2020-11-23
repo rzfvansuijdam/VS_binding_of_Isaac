@@ -2,30 +2,23 @@
 
 public class Health : MonoBehaviour
 {
-    public float health;
-    public float starthealth;
-    public bool alive = true;
+    protected float health;
 
-
-
-    public void TakeDamage(float value)
+    public float getHealth
     {
-
-        if (!alive)
-        {
-            return;
-        }
-
-        if (health <= 0)
-        {
-            health = 0;  
-            alive = false; 
-        }
-
-        health -= value;
-
-
+        get { return health; }
+        set { health -= value; }
     }
 
+    protected float starthealth;
+    protected bool alive = true;
 
+    public void Die()
+    {
+    }
+
+    public virtual void TakeDemage(float amount)
+    {
+        health -= amount;
+    }
 }
