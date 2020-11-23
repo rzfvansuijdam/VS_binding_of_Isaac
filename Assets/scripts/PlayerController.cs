@@ -6,14 +6,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("player settings")]
     [SerializeField] private float _speed;
-
     [SerializeField] private Rigidbody2D rigidbody;
-
-    [Header("bullet settings")]
     [SerializeField] private GameObject _bulletPrefab;
-
     [SerializeField] private float _bulletSpeed;
     [SerializeField] private float _lastFire;
     [SerializeField] private float _fireDelay;

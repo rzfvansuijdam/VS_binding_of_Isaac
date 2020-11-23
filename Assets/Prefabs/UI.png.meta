@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: 62e70e97a4e629d4a80cbd90008d8eb2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1557013538026691241
+    second: Blueheart-full
+  - first:
+      213: 82707731993968007
+    second: Redhearth-full
+  - first:
+      213: 1080825480604336155
+    second: Bluehearth-half
+  - first:
+      213: -9136572144232859775
+    second: Bluehearth-empty
+  - first:
+      213: 8586885197115800619
+    second: Redhearth-empty
+  - first:
+      213: 8160775752198118580
+    second: Redhearth-half
+  - first:
+      213: 7448113381798972013
+    second: UI_6
+  - first:
+      213: 7843416716369364892
+    second: UI_7
+  - first:
+      213: -6595680761151332689
+    second: UI_8
+  - first:
+      213: -273060469431498887
+    second: minimap-border
+  - first:
+      213: 8391660652416901024
+    second: undiscovered-room
+  - first:
+      213: 9094600903545770030
+    second: room
+  - first:
+      213: -4532114073746202998
+    second: loot-room
+  - first:
+      213: -8346291274449466048
+    second: boss-room
+  - first:
+      213: -343943630576144839
+    second: Cijfer-0
+  - first:
+      213: 7301787903208175943
+    second: Cijfer-1
+  - first:
+      213: 1652299931923453484
+    second: Cijfer-2
+  - first:
+      213: 388057999756033245
+    second: Cijfer-3
+  - first:
+      213: -5481780447360278658
+    second: Cijfer-4
+  - first:
+      213: 228940821244427079
+    second: Cijfer-5
+  - first:
+      213: 6620621745411573659
+    second: Cijfer-6
+  - first:
+      213: -256003546741158619
+    second: Cijfer-7
+  - first:
+      213: 238177201661318622
+    second: Cijfer-8
+  - first:
+      213: 9084407170249120912
+    second: Cijfer-9
+  - first:
+      213: -2237593904531371843
+    second: Blueheart-full
+  - first:
+      213: 5330569993209798865
+    second: Redhearth-full
+  - first:
+      213: -234869456393514594
+    second: Bluehearth-half
+  - first:
+      213: 7023508909965974000
+    second: Bluehearth-empty
+  - first:
+      213: 3042612150475795432
+    second: Redhearth-empty
+  - first:
+      213: -3402912906491347564
+    second: Redhearth-half
+  - first:
+      213: -4093414626140861551
+    second: UI_6
+  - first:
+      213: 6802307956482235163
+    second: UI_7
+  - first:
+      213: 5707725025843485694
+    second: UI_8
+  - first:
+      213: -6642540976191944798
+    second: minimap-border
+  - first:
+      213: -5416056595502929833
+    second: undiscovered-room
+  - first:
+      213: 5779829547654518056
+    second: room
+  - first:
+      213: -2081407994520621259
+    second: loot-room
+  - first:
+      213: -8713705335132242071
+    second: boss-room
+  - first:
+      213: 7954318067177408904
+    second: Cijfer-0
+  - first:
+      213: 1517783492312721871
+    second: Cijfer-1
+  - first:
+      213: 2108669937793794390
+    second: Cijfer-2
+  - first:
+      213: -4368206244817580527
+    second: Cijfer-3
+  - first:
+      213: -1428669392434644362
+    second: Cijfer-4
+  - first:
+      213: -6697691547408177559
+    second: Cijfer-5
+  - first:
+      213: 1527228484057644166
+    second: Cijfer-6
+  - first:
+      213: 1335351515747587567
+    second: Cijfer-7
+  - first:
+      213: -612209299938437804
+    second: Cijfer-8
+  - first:
+      213: -739547806750912250
+    second: Cijfer-9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 0.001
+  spriteBorder: {x: 12, y: 0, z: 1, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blueheart-full
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 52
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db804d8f23872f0e0800000000000000
+      internalID: -2237593904531371843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redhearth-full
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 52
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d060af8a2df9f940800000000000000
+      internalID: 5330569993209798865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bluehearth-half
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 37
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91531b49739dbcf0800000000000000
+      internalID: -234869456393514594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bluehearth-empty
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 21
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f910573424887160800000000000000
+      internalID: 7023508909965974000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redhearth-empty
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 21
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eba56261a7893a20800000000000000
+      internalID: 3042612150475795432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redhearth-half
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 37
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dbdfeadbc66c0d0800000000000000
+      internalID: -3402912906491347564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 51
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b4c7ad5154137c0800000000000000
+      internalID: -4093414626140861551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 38
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bdfe6db07a66e50800000000000000
+      internalID: 6802307956482235163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 24
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb12019ba9e53f40800000000000000
+      internalID: 5707725025843485694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap-border
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 20
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a74a140d24f0d3a0800000000000000
+      internalID: -6642540976191944798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undiscovered-room
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 60
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758e2adc83d46d4b0800000000000000
+      internalID: -5416056595502929833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 49
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825114ac954163050800000000000000
+      internalID: 5779829547654518056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loot-room
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 49
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fa0fde47a5d13e0800000000000000
+      internalID: -2081407994520621259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-room
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 60
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f34063a23b21780800000000000000
+      internalID: -8713705335132242071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cijfer-0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 6
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889c498632a636e60800000000000000
+      internalID: 7954318067177408904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cijfer-1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 6
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc960417b00401510800000000000000
+      internalID: 1517783492312721871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cijfer-2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 6
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6518ebed220834d10800000000000000
+      internalID: 2108669937793794390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cijfer-3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 6
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e410860930163c0800000000000000
+      internalID: -4368206244817580527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cijfer-4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 6
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ab57ac1c85c2ce0800000000000000
+      internalID: -1428669392434644362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cijfer-5
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 6
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966699506050d03a0800000000000000
+      internalID: -6697691547408177559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cijfer-6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 6
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c3d13f63ec13510800000000000000
+      internalID: 1527228484057644166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cijfer-7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 6
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe51a6ae02f188210800000000000000
+      internalID: 1335351515747587567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cijfer-8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 6
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4559af4a2eef087f0800000000000000
+      internalID: -612209299938437804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cijfer-9
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 6
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601513420399cb5f0800000000000000
+      internalID: -739547806750912250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -76.5, y: -37}
+      - {x: -76.5, y: 37}
+      - {x: 76.5, y: 37}
+      - {x: 76.5, y: -37}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
