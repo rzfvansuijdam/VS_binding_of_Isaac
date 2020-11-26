@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
         if ((shootHor != 0 || shootVer != 0) && Time.time > _lastFire + _fireDelay)
         {
-            shoot(shootHor, shootVer);
+            Shoot(shootHor, shootVer); 
             _lastFire = Time.time;
         }
     }
