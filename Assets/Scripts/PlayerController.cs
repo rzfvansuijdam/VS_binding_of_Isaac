@@ -3,8 +3,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float _speed;
-    [SerializeField] private Rigidbody2D rigidbody;
+    [SerializeField] private float _verticalSpeed;
+    [SerializeField] private float _horizonalSpeed;
+    [SerializeField] private float _maxSpeedVertical;
+    [SerializeField] private float _maxspeedHorizontal;
+    [SerializeField] private float _deceleration;
+    [SerializeField] private float _eceleration;
+    [SerializeField] private Rigidbody2D _rigidbody;
     [SerializeField] private GameObject _bulletPrefab;
     [SerializeField] private float _bulletSpeed;
     [SerializeField] private float _lastFire;
@@ -13,7 +18,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        _rigidbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -25,7 +30,18 @@ public class PlayerController : MonoBehaviour
 
     private void Movement()
     {
-        rigidbody.velocity = new Vector3(_inputAxis.GetHorizontal() * _speed, _inputAxis.GetVertical() * _speed, 0);
+        //verticle
+        if (_inputAxis.GetVertical() == 0) _verticalSpeed = Mathf.MoveTowards(_verticalSpeed, 0f, _deceleration * Time.deltaTime);
+        else _verticalSpeed += _inputAxis.GetVertical() * _eceleration * Time.deltaTime;
+        //horizontal
+        if (_inputAxis.GetHorizontal() == 0) _horizonalSpeed = Mathf.MoveTowards(_horizonalSpeed, 0f, _deceleration * Time.deltaTime);
+        else _horizonalSpeed += _inputAxis.GetHorizontal() * _eceleration * Time.deltaTime;
+        //if needed we can clamp it (in this case the maxspeed)
+        _verticalSpeed = Mathf.Clamp(_verticalSpeed, -_maxSpeedVertical, _maxSpeedVertical);
+        _horizonalSpeed = Mathf.Clamp(_horizonalSpeed, -_maxspeedHorizontal, _maxspeedHorizontal);
+        //move character
+        Vector3 newPosition = this.transform.position + new Vector3(_horizonalSpeed, _verticalSpeed, 0) * Time.deltaTime;
+        _rigidbody.MovePosition(newPosition);
     }
 
     private void CheckForShooting()

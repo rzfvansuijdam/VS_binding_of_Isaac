@@ -12,8 +12,8 @@ public class InputAxis : MonoBehaviour
     // Start is called before the first frame update
     private void Update()
     {
-        _horizontal = Input.GetAxis("Horizontal");
-        _vertical = Input.GetAxis("Vertical");
+        _horizontal = Input.GetAxisRaw("Horizontal");
+        _vertical = Input.GetAxisRaw("Vertical");
 
         _shootHor = Input.GetAxis("ShootingHorizontal");
         _shootVer = Input.GetAxis("ShootingVertical");
