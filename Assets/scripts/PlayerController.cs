@@ -12,7 +12,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _bulletSpeed;
     [SerializeField] private float _lastFire;
     [SerializeField] private float _fireDelay;
-    [SerializeField] private InputAxis _inputAxis;
 
     private void Start()
     {
@@ -28,14 +27,20 @@ public class PlayerController : MonoBehaviour
 
     private void Movement()
     {
-        rigidbody.velocity = new Vector3(_inputAxis.GetHorizontal() * _speed, _inputAxis.GetVertical() * _speed, 0);
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+
+        rigidbody.velocity = new Vector3(horizontal * _speed, vertical * _speed, 0);
     }
 
     private void CheckForShooting()
     {
-        if ((_inputAxis.GetShootHor() != 0 || _inputAxis.GetShootVer() != 0) && Time.time > _lastFire + _fireDelay)
+        float shootHor = Input.GetAxis("ShootingHorizontal");
+        float shootVer = Input.GetAxis("ShootingVertical");
+
+        if ((shootHor != 0 || shootVer != 0) && Time.time > _lastFire + _fireDelay)
         {
-            Shoot(_inputAxis.GetShootHor(), _inputAxis.GetShootVer());
+            Shoot(shootHor, shootVer);
             _lastFire = Time.time;
         }
     }
