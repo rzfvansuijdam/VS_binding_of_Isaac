@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletController : MonoBehaviour
+public class DestroyOverLifetime : MonoBehaviour
 {
     [SerializeField]
     private float _lifetime = 10;

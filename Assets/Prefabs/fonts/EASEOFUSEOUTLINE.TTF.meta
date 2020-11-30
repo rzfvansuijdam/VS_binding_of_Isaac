@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c867b19d0e903ff46a6589aae0b2e5ac
+guid: 988cd22ce3b879c41a97ad7e0cfde291
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Upheaval TT (BRK)
+  fontName: EaseOfUseOutline
   fontNames:
-  - Upheaval TT (BRK)
+  - EaseOfUseOutline
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
