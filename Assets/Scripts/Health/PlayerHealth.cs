@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerHealth : Health
 {
+    public UnityEvent damageTakeEvent;
+
     private void Start()
     {
         starthealth = 100;
@@ -14,18 +17,13 @@ public class PlayerHealth : Health
     public override void RemoveHealth(float amount)
     {
         base.RemoveHealth(amount);
-        updateUI();
+        damageTakeEvent.Invoke();
     }
 
     public override void AddHealth(float amount)
     {
         base.AddHealth(amount);
-        updateUI();
-    }
-
-    public void updateUI()
-    {
-        //show new health in ui
+        damageTakeEvent.Invoke();
     }
 
     public override void Die()
