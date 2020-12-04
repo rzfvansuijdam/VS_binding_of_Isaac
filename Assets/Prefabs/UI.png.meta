@@ -76,7 +76,7 @@ TextureImporter:
     second: Cijfer_9
   - first:
       213: -2237593904531371843
-    second: UI_0
+    second: EmptySprite
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -673,6 +673,27 @@ TextureImporter:
       bones: []
       spriteID: 09cd5b9a03c421e70800000000000000
       internalID: 9084407170249120912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmptySprite
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db804d8f23872f0e0800000000000000
+      internalID: -2237593904531371843
       vertices: []
       indices: 
       edges: []

@@ -2,10 +2,10 @@
 
 public class Health : MonoBehaviour
 {
-    protected float health;
-    protected float starthealth;
-    protected float maxHealth;
-    protected bool alive = true;
+    [SerializeField] protected float health;
+    [SerializeField] protected float starthealth;
+    [SerializeField] protected float maxHealth;
+    [SerializeField] protected bool alive = true;
 
     public virtual void Die()
     {

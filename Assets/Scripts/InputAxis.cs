@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class InputAxis : MonoBehaviour
 {
-    private float _shootHor;
-    private float _shootVer;
-    private float _horizontal;
-    private float _vertical;
+    [SerializeField] private float _shootHor;
+    [SerializeField] private float _shootVer;
+    [SerializeField] private float _horizontal;
+    [SerializeField] private float _vertical;
 
-    private string _horizontalString = "Horizontal";
-    private string _verticalString = "Vertical";
-    private string _horizontalShootString = "ShootingHorizontal";
-    private string _verticalShootString = "ShootingVertical";
+    [SerializeField] private string _horizontalString = "Horizontal";
+    [SerializeField] private string _verticalString = "Vertical";
+    [SerializeField] private string _horizontalShootString = "ShootingHorizontal";
+    [SerializeField] private string _verticalShootString = "ShootingVertical";
 
     // Start is called before the first frame update
     private void Update()
