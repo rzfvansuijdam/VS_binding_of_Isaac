@@ -9,7 +9,4 @@ public class EnemyHealth : Health
         starthealth = 100;
         health = starthealth;
     }
-    public override void Die()
-    {
-    }
 }

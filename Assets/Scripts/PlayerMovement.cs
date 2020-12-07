@@ -1,4 +1,6 @@
 ﻿// Gemaakt door Emile
+
+using System.Collections;
 using UnityEngine;
 using UnityEngine.WSA;
 
@@ -53,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
         string moveHorizontal;
         
         if (_inputAxis.GetHorizontal() > 0) moveHorizontal = "right";
-        else if (_inputAxis.GetHorizontal() < 0) moveHorizontal = "left"; 
+        else if (_inputAxis.GetHorizontal() < 0) moveHorizontal = "left";
         else moveHorizontal = null; 
         
         if (_inputAxis.GetVertical() > 0) moveVertical = "up";
@@ -64,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
         if (moveVertical != null && moveHorizontal == null) return moveVertical;
         if (moveVertical == null && moveHorizontal != null) return moveHorizontal;
 
-        //moving horizontal an moving vertical
+        //moving horizontal an moving vertical (Mathf.Abs because it can be in the min or plus but it has to be the same..) 
         if (moveHorizontal == "right")
         {
             if (Mathf.Abs(_horizonalSpeed) >= Mathf.Abs(_verticalSpeed)) return moveHorizontal;
@@ -76,35 +78,28 @@ public class PlayerMovement : MonoBehaviour
     private void Animate(string value)
     {
         //reset rotation
-        _playerBody.transform.rotation = new Quaternion(0, 0, 0, 0);
-        if(value == "idle")
+        switch (value)
         {
-            //idle
-            _bodyAnimator.SetBool("Idle", true);
+            case "idle":
+                _bodyAnimator.SetBool("Idle", true);
+                break;
+            case "left":
+                _bodyAnimator.SetBool("WalkingHorizontal", true);
+                _playerBody.transform.rotation = new Quaternion(0, 180, 0, 0);
+                break;
+            case "right":
+                _bodyAnimator.SetBool("WalkingHorizontal", true);
+                _playerBody.transform.rotation = new Quaternion(0, 0, 0, 0);
+                break;
+            case "up":
+                _bodyAnimator.SetBool("WalkingVertical", true);
+                break;
+            case "down":
+                _bodyAnimator.SetBool("WalkingVertical", true);
+                break;
+            default:
+                _bodyAnimator.SetBool("Idle", true);
+                break;
         }
-        if (value == "left")
-        {
-            //moving left
-            _bodyAnimator.SetBool("WalkingHorizontal", true);
-            _playerBody.transform.rotation = new Quaternion(0, 180, 0, 0);
-        }
-        if (value == "right")
-        {
-            //moving right
-            _bodyAnimator.SetBool("WalkingHorizontal", true);
-        }
-        if (value == "up")
-        {
-            //moving up
-            _bodyAnimator.SetBool("WalkingVertical", true);
-        }
-        if (value == "down")
-        {
-            //moving down
-            _bodyAnimator.SetBool("WalkingVertical", true);
-        }
-        
-        //if nothing what isnt possible.. just idle
-        _bodyAnimator.SetBool("Idle", true);
     }
 }

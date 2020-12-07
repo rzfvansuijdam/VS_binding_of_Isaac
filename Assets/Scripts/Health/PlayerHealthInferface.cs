@@ -13,43 +13,40 @@ public class PlayerHealthInferface : MonoBehaviour
     public Sprite emptySprite;
     public Image[] sprites;
 
-    //testing var
-    public float health = 75;
+    [SerializeField] private int _emptySpritesAfterZeroHearts;
+    [SerializeField] private float _fullHeartAfterAmountOfHealth;
 
-    private void Update()
+    public void UpdateUI(float health)
     {
-        UpdateUI();
-    }
-
-    public void UpdateUI()
-    {
-        int amountOfHearts = Mathf.RoundToInt(health / 25);
-        float currentHealth = health;
+        int emptySprites = 0;
+        int currentHealth = Mathf.RoundToInt(health);
         //place the hearts
         for (int i = 0; i < sprites.Length; i++)
         {
-            if (currentHealth / 25 >= 1)
+            if (currentHealth >= _fullHeartAfterAmountOfHealth)
             {
                 //full heart
-                sprites[i].gameObject.GetComponent<Image>().sprite = fullHeart;
+                sprites[i].sprite = fullHeart;
                 currentHealth -= 25;
+                continue;
             }
-            else if (currentHealth / 25 > 0)
+
+            if (currentHealth >= 0)
             {
                 //half heart
-                sprites[i].gameObject.GetComponent<Image>().sprite = HalfHeart;
+                sprites[i].sprite = HalfHeart;
                 currentHealth -= 25;
+                continue;
             }
-            else
+            //has less health.. so we make it empty heart.. 
+            emptySprites++;
+            if( emptySprites > _emptySpritesAfterZeroHearts)
             {
-                //the end the player has no more hearts so place 3 more empty if possible an remove others..
-                sprites[i].gameObject.GetComponent<Image>().sprite = emptyHeart;
-
-                for (int j = i; j < sprites.Length; j++)
-                {
-                    sprites[j].sprite = emptySprite;
-                }
+                sprites[i].sprite = emptySprite;
+                continue;
             }
+            sprites[i].sprite = emptyHeart;
+            currentHealth -= 25;
         }
     }
 }
