@@ -17,9 +17,12 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private Animator _bodyAnimator;
     [SerializeField] private GameObject _playerBody;
+
+    [SerializeField] private BodyAnimation _bodyAnimation;
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        _bodyAnimation = GetComponent<BodyAnimation>();
     }
 
     // Update is called once per frame
@@ -33,8 +36,9 @@ public class PlayerMovement : MonoBehaviour
         _verticalSpeed = CalculateMovement(_inputAxis.GetVertical(), _verticalSpeed, _maxSpeedVertical);
         _horizonalSpeed = CalculateMovement(_inputAxis.GetHorizontal(), _horizonalSpeed, _maxspeedHorizontal);
         //animation
-        string value = CalculateBodyAnimation();
-        Animate(value);
+        string value = _bodyAnimation.CalculateBodyAnimation(_horizonalSpeed, _verticalSpeed,
+            _inputAxis.GetHorizontal(), _inputAxis.GetVertical());
+        _bodyAnimation.Animate(value);
         //move character
         Vector3 newPosition = this.transform.position + new Vector3(_horizonalSpeed, _verticalSpeed, 0) * Time.deltaTime;
         _rigidbody.MovePosition(newPosition);
@@ -47,59 +51,5 @@ public class PlayerMovement : MonoBehaviour
             return Mathf.Clamp(Mathf.MoveTowards(speed, 0f, _deceleration * Time.deltaTime), -maxspeed, maxspeed);
         }
         return Mathf.Clamp(speed += input * _acceleration * Time.deltaTime, -maxspeed, maxspeed);
-    }
-
-    private string CalculateBodyAnimation()
-    {
-        string moveVertical;
-        string moveHorizontal;
-        
-        if (_inputAxis.GetHorizontal() > 0) moveHorizontal = "right";
-        else if (_inputAxis.GetHorizontal() < 0) moveHorizontal = "left";
-        else moveHorizontal = null; 
-        
-        if (_inputAxis.GetVertical() > 0) moveVertical = "up";
-        else if (_inputAxis.GetVertical() < 0) moveVertical = "down";
-        else moveVertical = null;
-
-        if (moveVertical == null && moveHorizontal == null) return "idle";
-        if (moveVertical != null && moveHorizontal == null) return moveVertical;
-        if (moveVertical == null && moveHorizontal != null) return moveHorizontal;
-
-        //moving horizontal an moving vertical (Mathf.Abs because it can be in the min or plus but it has to be the same..) 
-        if (moveHorizontal == "right")
-        {
-            if (Mathf.Abs(_horizonalSpeed) >= Mathf.Abs(_verticalSpeed)) return moveHorizontal;
-            return moveVertical;
-        }
-        if (Mathf.Abs(_verticalSpeed) > Mathf.Abs(_horizonalSpeed)) return moveVertical;
-        return moveHorizontal;
-    }
-    private void Animate(string value)
-    {
-        //reset rotation
-        switch (value)
-        {
-            case "idle":
-                _bodyAnimator.SetBool("Idle", true);
-                break;
-            case "left":
-                _bodyAnimator.SetBool("WalkingHorizontal", true);
-                _playerBody.transform.rotation = new Quaternion(0, 180, 0, 0);
-                break;
-            case "right":
-                _bodyAnimator.SetBool("WalkingHorizontal", true);
-                _playerBody.transform.rotation = new Quaternion(0, 0, 0, 0);
-                break;
-            case "up":
-                _bodyAnimator.SetBool("WalkingVertical", true);
-                break;
-            case "down":
-                _bodyAnimator.SetBool("WalkingVertical", true);
-                break;
-            default:
-                _bodyAnimator.SetBool("Idle", true);
-                break;
-        }
     }
 }

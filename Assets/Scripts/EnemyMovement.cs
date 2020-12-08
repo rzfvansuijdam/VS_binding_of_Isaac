@@ -1,33 +1,58 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class EnemyMovement : MonoBehaviour
 {
+    [SerializeField] private float _cooldown;
+    [SerializeField] private float _cooldownTime;
+    [SerializeField] private float _verticalSpeed;
+    [SerializeField] private float _horizonalSpeed;
+    [SerializeField] private float _maxSpeedVertical;
+    [SerializeField] private float _maxspeedHorizontal;
+    [SerializeField] private float _deceleration;
+    [SerializeField] private float _acceleration;
+    [SerializeField] private Rigidbody2D _rigidbody;
+    
+    [SerializeField] private Animator _anim;
+    [SerializeField] private GameObject _thisObject;
 
-    public float accelerationTime = 2f;
-    public float maxSpeed = 5f;
-    private Vector2 movement;
-    private float timeLeft;
-    public Rigidbody2D rb;
-
-    void Start()
+    [SerializeField] private int _horizontalMovepower;
+    [SerializeField] private int _verticalMovepower;
+    
+    [SerializeField] private BodyAnimation _bodyAnimation;
+    private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        _rigidbody = GetComponent<Rigidbody2D>();
+        _bodyAnimation = GetComponent<BodyAnimation>();
     }
 
-    void Update()
+    private void Update()
     {
-        timeLeft -= Time.deltaTime;
-        if (timeLeft <= 0)
+        _cooldown -= Time.deltaTime;
+        if (_cooldown <= 0)
         {
-            movement = new Vector2(Random.Range(-5f, 5f), Random.Range(-5f, 5f));
-            timeLeft += accelerationTime;
+            _horizontalMovepower = Random.Range(-1, 2);
+            _verticalMovepower = Random.Range(-1, 2);
+            _cooldown = _cooldownTime;
         }
+        _verticalSpeed = CalculateMovement(_verticalMovepower, _verticalSpeed, _maxSpeedVertical);
+        _horizonalSpeed = CalculateMovement(_horizontalMovepower, _horizonalSpeed, _maxspeedHorizontal);
+
+        _bodyAnimation.Animate(_bodyAnimation.CalculateBodyAnimation(_horizonalSpeed, _verticalSpeed, _horizontalMovepower, _verticalMovepower));
+
+        Vector3 newPosition = transform.position + new Vector3(_horizonalSpeed, _verticalSpeed, 0) * Time.deltaTime;
+        _rigidbody.MovePosition(newPosition);
     }
 
-    void FixedUpdate()
+    private float CalculateMovement(float input, float speed, float maxspeed)
     {
-        rb.AddForce(movement * maxSpeed);
+        if (input == 0)
+        {
+            return Mathf.Clamp(Mathf.MoveTowards(speed, 0f, _deceleration * Time.deltaTime), -maxspeed, maxspeed);
+        }
+        return Mathf.Clamp(speed += input * _acceleration * Time.deltaTime, -maxspeed, maxspeed);
     }
 }
