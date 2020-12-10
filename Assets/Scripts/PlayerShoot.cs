@@ -27,9 +27,10 @@ public class PlayerShoot : MonoBehaviour
 
     public void Shoot(float x, float y)
     {
-        GameObject bullet = Instantiate(_bulletPrefab, transform.position, transform.rotation) as GameObject;
+        GameObject bullet = Instantiate(_bulletPrefab, transform.position, transform.rotation);
         Rigidbody2D rigidbody = bullet.AddComponent<Rigidbody2D>();
         rigidbody.gravityScale = 0;
+        if (x != 0 && y != 0) y = 0; //making sure that you cant shoot diagonal
         rigidbody.velocity = new Vector3(
             (x < 0) ? Mathf.Floor(x) * _bulletSpeed : Mathf.Ceil(x) * _bulletSpeed,
             (y < 0) ? Mathf.Floor(y) * _bulletSpeed : Mathf.Ceil(y) * _bulletSpeed,
