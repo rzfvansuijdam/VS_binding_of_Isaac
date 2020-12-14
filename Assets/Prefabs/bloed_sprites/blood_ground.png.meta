@@ -1,0 +1,662 @@
+fileFormatVersion: 2
+guid: 22959dac756ed478a8166d820bffcbae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3212929083745647808
+    second: blood_ground_0
+  - first:
+      213: -6324618180558699580
+    second: blood_ground_1
+  - first:
+      213: -6530215696147219645
+    second: blood_ground_2
+  - first:
+      213: -4318083218186202300
+    second: blood_ground_3
+  - first:
+      213: -7028180874528176897
+    second: blood_ground_4
+  - first:
+      213: 2246728093252587235
+    second: blood_ground_5
+  - first:
+      213: -2004326918030705254
+    second: blood_ground_6
+  - first:
+      213: -6321586779836517227
+    second: blood_ground_7
+  - first:
+      213: -4981604827020245959
+    second: blood_ground_8
+  - first:
+      213: 3758719480180982098
+    second: blood_ground_9
+  - first:
+      213: -2973954685299796132
+    second: blood_ground_10
+  - first:
+      213: -2628643912585430745
+    second: blood_ground_11
+  - first:
+      213: -270714394249262817
+    second: blood_ground_12
+  - first:
+      213: -7381974966078629048
+    second: blood_ground_13
+  - first:
+      213: -2479146451737245278
+    second: blood_ground_14
+  - first:
+      213: 1215240889675766379
+    second: blood_ground_15
+  - first:
+      213: 9175296231053979196
+    second: blood_ground_16
+  - first:
+      213: -706860008712888926
+    second: blood_ground_17
+  - first:
+      213: -3310693278208225640
+    second: blood_ground_18
+  - first:
+      213: -8270268764078808186
+    second: blood_ground_19
+  - first:
+      213: 6702936118693187355
+    second: blood_ground_20
+  - first:
+      213: 3942392677140095076
+    second: blood_ground_21
+  - first:
+      213: -6358068494333616738
+    second: blood_ground_22
+  - first:
+      213: -7492777716866902435
+    second: blood_ground_23
+  - first:
+      213: 2087035917768326925
+    second: blood_ground_24
+  - first:
+      213: -6699931812300468375
+    second: blood_ground_25
+  - first:
+      213: -8337014009887894855
+    second: blood_ground_26
+  - first:
+      213: 3204274114142163162
+    second: blood_ground_27
+  - first:
+      213: 2627160473004863424
+    second: blood_ground_28
+  - first:
+      213: -5658969808053218374
+    second: blood_ground_29
+  - first:
+      213: 2939997060606721853
+    second: blood_ground_30
+  - first:
+      213: -7090514503085930310
+    second: blood_ground_31
+  - first:
+      213: -8503591653781890360
+    second: blood_ground_32
+  - first:
+      213: 5436236042412405324
+    second: blood_ground_33
+  - first:
+      213: -6384573608813331727
+    second: blood_ground_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blood_ground_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043c1da65026963d0800000000000000
+      internalID: -3212929083745647808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 102
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c342d726417a38a0800000000000000
+      internalID: -6324618180558699580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 90
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bf6744c630065a0800000000000000
+      internalID: -6530215696147219645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 92
+        width: 87
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4439f65f0361314c0800000000000000
+      internalID: -4318083218186202300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 3
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4cd844bb2e67e90800000000000000
+      internalID: -7028180874528176897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee06311c4bfd2f10800000000000000
+      internalID: 2246728093252587235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_6
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 125
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9db60599433f24e0800000000000000
+      internalID: -2004326918030705254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 68
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594f90321563548a0800000000000000
+      internalID: -6321586779836517227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2
+        width: 81
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9344612bdc8cddab0800000000000000
+      internalID: -4981604827020245959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 150
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2514782e377a92430800000000000000
+      internalID: 3758719480180982098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_10
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 113
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57d89c68f36ab6d0800000000000000
+      internalID: -2973954685299796132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_11
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 115
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7293a55e94e258bd0800000000000000
+      internalID: -2628643912585430745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_12
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 154
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19003751ba3e3cf0800000000000000
+      internalID: -270714394249262817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_13
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 151
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b9e0631e4fd8990800000000000000
+      internalID: -7381974966078629048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_14
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 116
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9080eef6d489dd0800000000000000
+      internalID: -2479146451737245278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_15
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 75
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a57a986276dd010800000000000000
+      internalID: 1215240889675766379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_16
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 73
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ee3f03f43355f70800000000000000
+      internalID: 9175296231053979196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_17
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 38
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad1db2319ab036f0800000000000000
+      internalID: -706860008712888926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_18
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 38
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e0028110e0e02d0800000000000000
+      internalID: -3310693278208225640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 3
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683e218706a1a3d80800000000000000
+      internalID: -8270268764078808186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_ground_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 3
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fc7d2e2ec950d50800000000000000
+      internalID: 6702936118693187355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

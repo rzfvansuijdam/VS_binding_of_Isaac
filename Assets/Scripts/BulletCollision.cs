@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BulletCollision : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class BulletCollision : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private BoxCollider2D _boxCollider2D;
     private string explodeString = "Explode";
+
     private void Start()
     {
         _animator = this.GetComponent<Animator>();
@@ -19,6 +21,14 @@ public class BulletCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
+        if (other.gameObject.CompareTag("enemy"))
+        {
+            if (other.gameObject.GetComponent<EnemyHealth>() != null)
+            {
+                other.gameObject.GetComponent<EnemyHealth>().RemoveHealth(1);
+            }
+        }
         _animator.SetBool(explodeString, true);
         Destroy(_rigidbody2D);
         Destroy(_boxCollider2D);
@@ -26,6 +36,13 @@ public class BulletCollision : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        if (other.gameObject.CompareTag("enemy"))
+        {
+            if (other.gameObject.GetComponent<EnemyHealth>() != null)
+            {
+                other.gameObject.GetComponent<EnemyHealth>().RemoveHealth(1);
+            }
+        }
         _animator.SetBool(explodeString, true);
         Destroy(_rigidbody2D);
         Destroy(_boxCollider2D);

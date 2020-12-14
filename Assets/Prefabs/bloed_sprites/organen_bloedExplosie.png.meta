@@ -1,0 +1,1016 @@
+fileFormatVersion: 2
+guid: 8d649f19ca8504e4284071a9d80cbeb6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9078749077017933321
+    second: organen_bloedExplosie_0
+  - first:
+      213: 2150686862351261991
+    second: organen_bloedExplosie_1
+  - first:
+      213: 5256594918221814234
+    second: organen_bloedExplosie_2
+  - first:
+      213: 2382418212083966926
+    second: organen_bloedExplosie_3
+  - first:
+      213: -2049984746731067984
+    second: organen_bloedExplosie_4
+  - first:
+      213: -4490739262644306422
+    second: organen_bloedExplosie_5
+  - first:
+      213: 732680974079039409
+    second: organen_bloedExplosie_6
+  - first:
+      213: -2349654411739918265
+    second: organen_bloedExplosie_7
+  - first:
+      213: -5088603027575885723
+    second: organen_bloedExplosie_8
+  - first:
+      213: -5135978067825107026
+    second: organen_bloedExplosie_9
+  - first:
+      213: -6120564932554513476
+    second: organen_bloedExplosie_10
+  - first:
+      213: -2081121214584019889
+    second: organen_bloedExplosie_11
+  - first:
+      213: -4571139771385004303
+    second: organen_bloedExplosie_12
+  - first:
+      213: -5955283906095697251
+    second: organen_bloedExplosie_13
+  - first:
+      213: 6138806905812282652
+    second: organen_bloedExplosie_14
+  - first:
+      213: -1977142899285402393
+    second: organen_bloedExplosie_15
+  - first:
+      213: -5101188734348086316
+    second: organen_bloedExplosie_16
+  - first:
+      213: 640189772803730134
+    second: organen_bloedExplosie_17
+  - first:
+      213: -1081465757375247521
+    second: organen_bloedExplosie_18
+  - first:
+      213: 1494575021422177644
+    second: organen_bloedExplosie_19
+  - first:
+      213: -6428953954876201824
+    second: organen_bloedExplosie_20
+  - first:
+      213: -901034863646988894
+    second: organen_bloedExplosie_21
+  - first:
+      213: 6651726220402268995
+    second: organen_bloedExplosie_22
+  - first:
+      213: -3407419608678204539
+    second: organen_bloedExplosie_23
+  - first:
+      213: 7304484320360925489
+    second: organen_bloedExplosie_24
+  - first:
+      213: -1528941118103556150
+    second: organen_bloedExplosie_25
+  - first:
+      213: -3882892089563379523
+    second: organen_bloedExplosie_26
+  - first:
+      213: -5697787483069870523
+    second: organen_bloedExplosie_27
+  - first:
+      213: -3321972940062753091
+    second: organen_bloedExplosie_28
+  - first:
+      213: 3749955668816118241
+    second: organen_bloedExplosie_29
+  - first:
+      213: 964638962270767609
+    second: organen_bloedExplosie_30
+  - first:
+      213: 2706140476942349989
+    second: organen_bloedExplosie_31
+  - first:
+      213: -7411065206558834590
+    second: organen_bloedExplosie_32
+  - first:
+      213: 1524313408922473299
+    second: organen_bloedExplosie_33
+  - first:
+      213: -1449375666445983499
+    second: organen_bloedExplosie_34
+  - first:
+      213: 5972349215341249938
+    second: organen_bloedExplosie_35
+  - first:
+      213: 1146180888185827584
+    second: organen_bloedExplosie_36
+  - first:
+      213: -4807519652960269578
+    second: organen_bloedExplosie_37
+  - first:
+      213: -911567381336092528
+    second: organen_bloedExplosie_38
+  - first:
+      213: -3875867082898435419
+    second: organen_bloedExplosie_39
+  - first:
+      213: -2605176456195707230
+    second: organen_bloedExplosie_40
+  - first:
+      213: -545776668554318842
+    second: organen_bloedExplosie_41
+  - first:
+      213: 6881927143022218830
+    second: organen_bloedExplosie_42
+  - first:
+      213: 8250476207421036833
+    second: organen_bloedExplosie_43
+  - first:
+      213: -2334344808867783414
+    second: organen_bloedExplosie_44
+  - first:
+      213: 6502993837583691215
+    second: organen_bloedExplosie_45
+  - first:
+      213: -6603253466229871066
+    second: organen_bloedExplosie_46
+  - first:
+      213: 2820702600738268685
+    second: organen_bloedExplosie_47
+  - first:
+      213: 5930630117200933626
+    second: organen_bloedExplosie_48
+  - first:
+      213: 7879056489178932345
+    second: organen_bloedExplosie_49
+  - first:
+      213: -60066267770462323
+    second: organen_bloedExplosie_50
+  - first:
+      213: 4856931586937076473
+    second: organen_bloedExplosie_51
+  - first:
+      213: 8583035426073612620
+    second: organen_bloedExplosie_52
+  - first:
+      213: -8578132357980771019
+    second: organen_bloedExplosie_53
+  - first:
+      213: -5086580569382622786
+    second: organen_bloedExplosie_54
+  - first:
+      213: 4213017198437598061
+    second: organen_bloedExplosie_55
+  - first:
+      213: -6396417345789540563
+    second: organen_bloedExplosie_56
+  - first:
+      213: -4600530308334024273
+    second: organen_bloedExplosie_57
+  - first:
+      213: -3012694083089070676
+    second: organen_bloedExplosie_58
+  - first:
+      213: -4450086406245340802
+    second: organen_bloedExplosie_59
+  - first:
+      213: -3098465588933499199
+    second: organen_bloedExplosie_60
+  - first:
+      213: 3226928203530516891
+    second: organen_bloedExplosie_61
+  - first:
+      213: 3380908306551318469
+    second: organen_bloedExplosie_62
+  - first:
+      213: 4638549341540166789
+    second: organen_bloedExplosie_63
+  - first:
+      213: -7655450018225116958
+    second: organen_bloedExplosie_64
+  - first:
+      213: 8932265601971589523
+    second: organen_bloedExplosie_65
+  - first:
+      213: -6959504061243732141
+    second: organen_bloedExplosie_66
+  - first:
+      213: -3967889613699083384
+    second: organen_bloedExplosie_67
+  - first:
+      213: 5792697008894228300
+    second: organen_bloedExplosie_68
+  - first:
+      213: 6489583481242976803
+    second: organen_bloedExplosie_69
+  - first:
+      213: 9068687902954402601
+    second: organen_bloedExplosie_70
+  - first:
+      213: -4452528563268592242
+    second: organen_bloedExplosie_71
+  - first:
+      213: -4666884649049941493
+    second: organen_bloedExplosie_72
+  - first:
+      213: 5410983719864297859
+    second: organen_bloedExplosie_73
+  - first:
+      213: 7346873576182289664
+    second: organen_bloedExplosie_74
+  - first:
+      213: -7052496353410756911
+    second: organen_bloedExplosie_75
+  - first:
+      213: 3074846993021856287
+    second: organen_bloedExplosie_76
+  - first:
+      213: 5664390288583794671
+    second: organen_bloedExplosie_77
+  - first:
+      213: -2643777712436215746
+    second: organen_bloedExplosie_78
+  - first:
+      213: -3546563264863770380
+    second: organen_bloedExplosie_79
+  - first:
+      213: -8440316517495097486
+    second: organen_bloedExplosie_80
+  - first:
+      213: 3856936482899891196
+    second: organen_bloedExplosie_81
+  - first:
+      213: -7323422919022548689
+    second: organen_bloedExplosie_82
+  - first:
+      213: 1362764207426541557
+    second: organen_bloedExplosie_83
+  - first:
+      213: 329658686602267111
+    second: organen_bloedExplosie_84
+  - first:
+      213: -2350221260039198455
+    second: organen_bloedExplosie_85
+  - first:
+      213: 2080959450492558473
+    second: organen_bloedExplosie_86
+  - first:
+      213: -25091245415743311
+    second: organen_bloedExplosie_87
+  - first:
+      213: -4537380685286141995
+    second: organen_bloedExplosie_88
+  - first:
+      213: 326833943780800690
+    second: organen_bloedExplosie_89
+  - first:
+      213: 6254858853001143935
+    second: organen_bloedExplosie_90
+  - first:
+      213: 5151262079645844922
+    second: organen_bloedExplosie_91
+  - first:
+      213: 5772796649200679469
+    second: organen_bloedExplosie_92
+  - first:
+      213: 7107559764262833711
+    second: organen_bloedExplosie_93
+  - first:
+      213: -828680702996322498
+    second: organen_bloedExplosie_94
+  - first:
+      213: -1145463098317508547
+    second: organen_bloedExplosie_95
+  - first:
+      213: -7066277291798924928
+    second: organen_bloedExplosie_96
+  - first:
+      213: -4189672922058787565
+    second: organen_bloedExplosie_97
+  - first:
+      213: -3158455705770278465
+    second: organen_bloedExplosie_98
+  - first:
+      213: -7297551425155124096
+    second: organen_bloedExplosie_99
+  - first:
+      213: -2702945757128990670
+    second: organen_bloedExplosie_100
+  - first:
+      213: -7834227014947672889
+    second: organen_bloedExplosie_101
+  - first:
+      213: -414044964570577055
+    second: organen_bloedExplosie_102
+  - first:
+      213: -7720406173170003709
+    second: organen_bloedExplosie_103
+  - first:
+      213: 2745110038701104988
+    second: organen_bloedExplosie_104
+  - first:
+      213: 6359724425745601284
+    second: organen_bloedExplosie_105
+  - first:
+      213: 2105480982705341708
+    second: organen_bloedExplosie_106
+  - first:
+      213: -6902472749803517900
+    second: organen_bloedExplosie_107
+  - first:
+      213: 9080288088160787882
+    second: organen_bloedExplosie_108
+  - first:
+      213: -6347860476902700667
+    second: organen_bloedExplosie_109
+  - first:
+      213: -6990083359046233982
+    second: organen_bloedExplosie_110
+  - first:
+      213: 1149771469455834988
+    second: organen_bloedExplosie_111
+  - first:
+      213: 5869995048488645012
+    second: organen_bloedExplosie_112
+  - first:
+      213: 1251421417494673182
+    second: organen_bloedExplosie_113
+  - first:
+      213: -3409368721706660220
+    second: organen_bloedExplosie_114
+  - first:
+      213: 2946805724640002693
+    second: organen_bloedExplosie_115
+  - first:
+      213: -4951340483143481601
+    second: organen_bloedExplosie_116
+  - first:
+      213: -1560292188678857995
+    second: organen_bloedExplosie_117
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: organen_bloedExplosie_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 31
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9063f8c2f223efd70800000000000000
+      internalID: 9078749077017933321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 43
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721eb857e46c8dd10800000000000000
+      internalID: 2150686862351261991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 45
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad91cbc3a3d23f840800000000000000
+      internalID: 5256594918221814234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3afa5cdbc001120800000000000000
+      internalID: 2382418212083966926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 37
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b52020fbbdfc83e0800000000000000
+      internalID: -2049984746731067984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 46
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ebf2ffe60bda1c0800000000000000
+      internalID: -4490739262644306422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 20
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b71ba9c6710b2a00800000000000000
+      internalID: 732680974079039409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 20
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7401053f2c9546fd0800000000000000
+      internalID: -2349654411739918265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 22
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560bc5ac186a169b0800000000000000
+      internalID: -5088603027575885723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 25
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf561da82759b8b0800000000000000
+      internalID: -5135978067825107026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 7
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3206a3f926f0ba0800000000000000
+      internalID: -6120564932554513476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 17
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44a036184f5e13e0800000000000000
+      internalID: -2081121214584019889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 10
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1febfebc89c0090c0800000000000000
+      internalID: -4571139771385004303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92b09007d49a5da0800000000000000
+      internalID: -5955283906095697251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 10
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1de7a52b5c613550800000000000000
+      internalID: 6138806905812282652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 44
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec58e92207cf84e0800000000000000
+      internalID: -1977142899285402393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 38
+        width: 2
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d335f49fdfe439b0800000000000000
+      internalID: -5101188734348086316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_17
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 33
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6daedccd43962e800800000000000000
+      internalID: 640189772803730134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 44
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b46ee9f9cddf0f0800000000000000
+      internalID: -1081465757375247521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 43
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d6a0a301ccdb410800000000000000
+      internalID: 1494575021422177644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 38
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4e24aa074c7c6a0800000000000000
+      internalID: -6428953954876201824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 33
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5241eb091ee73f0800000000000000
+      internalID: -901034863646988894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 33
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b9a3e41cdaf4c50800000000000000
+      internalID: 6651726220402268995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_23
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 33
+        width: 2
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bf8005be966b0d0800000000000000
+      internalID: -3407419608678204539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 38
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139068ed9cdbe5560800000000000000
+      internalID: 7304484320360925489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: organen_bloedExplosie_25
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 39
+        width: 5
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfe2fc572c18cae0800000000000000
+      internalID: -1528941118103556150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
