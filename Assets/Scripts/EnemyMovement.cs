@@ -23,10 +23,12 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private int _verticalMovepower;
     
     [SerializeField] private BodyAnimation _bodyAnimation;
+    [SerializeField] private GameObject _player;
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _bodyAnimation = GetComponent<BodyAnimation>();
+        Physics2D.IgnoreCollision(this.gameObject.GetComponent<BoxCollider2D>(), _player.GetComponent<BoxCollider2D>(), true);
     }
 
     private void Update()
