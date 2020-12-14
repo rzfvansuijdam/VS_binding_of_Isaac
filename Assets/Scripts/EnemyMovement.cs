@@ -15,9 +15,6 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float _deceleration;
     [SerializeField] private float _acceleration;
     [SerializeField] private Rigidbody2D _rigidbody;
-    
-    [SerializeField] private Animator _anim;
-    [SerializeField] private GameObject _thisObject;
 
     [SerializeField] private int _horizontalMovepower;
     [SerializeField] private int _verticalMovepower;
@@ -26,9 +23,8 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private GameObject _player;
     private void Start()
     {
-        _rigidbody = GetComponent<Rigidbody2D>();
-        _bodyAnimation = GetComponent<BodyAnimation>();
-        Physics2D.IgnoreCollision(this.gameObject.GetComponent<BoxCollider2D>(), _player.GetComponent<BoxCollider2D>(), true);
+        _player = GameObject.FindWithTag("Player");
+        Physics2D.IgnoreCollision(gameObject.GetComponent<BoxCollider2D>(), _player.GetComponent<BoxCollider2D>(), true);
     }
 
     private void Update()
@@ -36,8 +32,8 @@ public class EnemyMovement : MonoBehaviour
         _cooldown -= Time.deltaTime;
         if (_cooldown <= 0)
         {
-            _horizontalMovepower = Random.Range(-1, 2);
-            _verticalMovepower = Random.Range(-1, 2);
+            _horizontalMovepower = Random.Range(-2, 2);
+            _verticalMovepower = Random.Range(-2, 2);
             _cooldown = _cooldownTime;
         }
         _verticalSpeed = CalculateMovement(_verticalMovepower, _verticalSpeed, _maxSpeedVertical);

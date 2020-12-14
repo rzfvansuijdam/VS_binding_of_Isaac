@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1670144374646019130}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.55172, y: 0.55172, z: 0.55172}
   m_Children: []
   m_Father: {fileID: 1670144375513421687}
   m_RootOrder: 0
@@ -3774,12 +3774,7 @@ ParticleSystem:
   SubModule:
     serializedVersion: 2
     enabled: 1
-    subEmitters:
-    - serializedVersion: 3
-      emitter: {fileID: 0}
-      type: 0
-      properties: 0
-      emitProbability: 1
+    subEmitters: []
   LightsModule:
     enabled: 0
     ratio: 0
@@ -5432,7 +5427,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 17
     angle: 15.77
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -8492,13 +8487,13 @@ ParticleSystem:
   CollisionModule:
     enabled: 0
     serializedVersion: 3
-    type: 0
-    collisionMode: 0
+    type: 1
+    collisionMode: 1
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
-    plane0: {fileID: 0}
+    plane0: {fileID: 1670144374646019129}
     plane1: {fileID: 0}
     plane2: {fileID: 0}
     plane3: {fileID: 0}
@@ -9701,7 +9696,7 @@ GameObject:
   - component: {fileID: 1670144375513421687}
   - component: {fileID: 1670144375513421686}
   - component: {fileID: 1670144375513421689}
-  - component: {fileID: 1670144375513421684}
+  - component: {fileID: 8191945717296020249}
   m_Layer: 0
   m_Name: bloed_explosie
   m_TagString: Untagged
@@ -9718,7 +9713,7 @@ Transform:
   m_GameObject: {fileID: 1670144375513421688}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8184686, y: 0.8184686, z: 0.8184686}
   m_Children:
   - {fileID: 1670144374646019129}
   - {fileID: 1670144374834435870}
@@ -13459,17 +13454,7 @@ ParticleSystem:
   SubModule:
     serializedVersion: 2
     enabled: 1
-    subEmitters:
-    - serializedVersion: 3
-      emitter: {fileID: 1670144374646019128}
-      type: 0
-      properties: 0
-      emitProbability: 1
-    - serializedVersion: 3
-      emitter: {fileID: 1670144374834435841}
-      type: 0
-      properties: 0
-      emitProbability: 1
+    subEmitters: []
   LightsModule:
     enabled: 0
     ratio: 0
@@ -14463,7 +14448,7 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &1670144375513421684
+--- !u!114 &8191945717296020249
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14472,6 +14457,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1670144375513421688}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3080cff3944024e76bb16908a8953c72, type: 3}
+  m_Script: {fileID: 11500000, guid: 373eaf0a8cb2bc9409111ee3ccf276bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseParticle: {fileID: 1670144374834435841}
+  removeParticle: {fileID: 1670144375513421686}
+  secondsForPause: 0.25
+  secondsForRemove: 8

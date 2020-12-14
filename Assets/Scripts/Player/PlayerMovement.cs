@@ -15,10 +15,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _acceleration;
     [SerializeField] private Rigidbody2D _rigidbody;
     [SerializeField] private InputAxis _inputAxis;
-
-    [SerializeField] private Animator _bodyAnimator;
-    [SerializeField] private GameObject _playerBody;
-
+    
     [SerializeField] private BodyAnimation _bodyAnimation;
     private void Start()
     {
