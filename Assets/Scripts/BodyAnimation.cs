@@ -34,6 +34,7 @@ public class BodyAnimation : MonoBehaviour
         if (Mathf.Abs(_verticalSpeed) >= Mathf.Abs(_horizontalSpeed)) return moveVertical;
         return moveHorizontal;
     }
+    
     public void Animate(string value)
     {
         //reset rotation
