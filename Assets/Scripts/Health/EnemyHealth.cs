@@ -12,7 +12,8 @@ public class EnemyHealth : Health
     public GameObject MainObject;
     public ParticleSystem bloodGroundEffect;
     public float timeTillDestory = 8;
-    
+    public bool canTakeDamage = true;
+    public GameObject enemy;
     private void Start()
     {
         starthealth = 4;
@@ -21,8 +22,12 @@ public class EnemyHealth : Health
 
     public override void RemoveHealth(float amount)
     {
-        base.RemoveHealth(amount);
-        damageTakeEvent.Invoke();
+        if (canTakeDamage)
+        {
+            base.RemoveHealth(amount);
+            damageTakeEvent.Invoke();
+            StartCoroutine(DamageIndicatie());
+        }
     }
 
     public override void Die()
@@ -46,6 +51,16 @@ public class EnemyHealth : Health
     {
         yield return new WaitForSeconds(timeTillDestory);
         Destroy(MainObject);
+        yield return null;
+    }
+
+    public IEnumerator DamageIndicatie()
+    {
+        canTakeDamage = false;
+        enemy.GetComponent<SpriteRenderer>().color = Color.red;  
+        yield return new WaitForSeconds(1);
+        enemy.GetComponent<SpriteRenderer>().color = Color.white;    
+        canTakeDamage = true;
         yield return null;
     }
 }

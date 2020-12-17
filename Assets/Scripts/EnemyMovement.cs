@@ -23,8 +23,8 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private GameObject _player;
     private void Start()
     {
-        _player = GameObject.FindWithTag("Player");
-        Physics2D.IgnoreCollision(gameObject.GetComponent<BoxCollider2D>(), _player.GetComponent<BoxCollider2D>(), true);
+        // _player = GameObject.FindWithTag("Player");
+        // Physics2D.IgnoreCollision(gameObject.GetComponent<BoxCollider2D>(), _player.GetComponent<BoxCollider2D>(), true);
     }
 
     private void Update()

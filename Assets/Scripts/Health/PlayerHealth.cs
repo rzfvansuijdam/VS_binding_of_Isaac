@@ -7,7 +7,10 @@ using UnityEngine.Events;
 public class PlayerHealth : Health
 {
     public UnityEvent damageTakeEvent;
-
+    public SpriteRenderer render1;
+    public SpriteRenderer render2;
+    public bool canTakeDamage = true;
+    
     private void Update()
     {
         if (Input.GetKey(KeyCode.M))
@@ -36,8 +39,12 @@ public class PlayerHealth : Health
 
     public override void RemoveHealth(float amount)
     {
-        base.RemoveHealth(amount);
-        damageTakeEvent.Invoke();
+        if (canTakeDamage)
+        {
+            base.RemoveHealth(amount);
+            damageTakeEvent.Invoke();
+            StartCoroutine(DamageIndicator());
+        }
     }
 
     public override void AddHealth(float amount)
@@ -48,5 +55,17 @@ public class PlayerHealth : Health
 
     public override void Die()
     {
+    }
+
+    public IEnumerator DamageIndicator()
+    {
+        canTakeDamage = false;
+        render1.GetComponent<SpriteRenderer>().color = Color.red;  
+        render2.GetComponent<SpriteRenderer>().color = Color.red;  
+        yield return new WaitForSeconds(1);
+        render1.GetComponent<SpriteRenderer>().color = Color.white;    
+        render2.GetComponent<SpriteRenderer>().color = Color.white;    
+        canTakeDamage = true;
+        yield return null;
     }
 }
