@@ -22,7 +22,6 @@ public class PlayerHealth : Health
 
     private void Start()
     {
-        starthealth = 75;
         maxHealth = int.MaxValue;
         health = starthealth;
         if (this.GetComponent<PlayerHealthInferface>() != null)
