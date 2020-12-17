@@ -3928,6 +3928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 841473612}
   - component: {fileID: 841473613}
+  - component: {fileID: 841473614}
   m_Layer: 0
   m_Name: geef_hoofd_0
   m_TagString: Untagged
@@ -4000,6 +4001,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &841473614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841473611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d2af60ead7eef448c2ff8b5ea26595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inputAxis: {fileID: 395624353}
+  shootLeft: {fileID: -7550296253545761987, guid: 13dac89977f91fb44ba3438e599e6b3d,
+    type: 3}
+  shootRight: {fileID: -7550296253545761987, guid: 13dac89977f91fb44ba3438e599e6b3d,
+    type: 3}
+  shootUp: {fileID: -2159575517437357791, guid: 13dac89977f91fb44ba3438e599e6b3d,
+    type: 3}
+  shootDown: {fileID: 6417957749485858509, guid: 13dac89977f91fb44ba3438e599e6b3d,
+    type: 3}
+  shootIdle: {fileID: 6417957749485858509, guid: 13dac89977f91fb44ba3438e599e6b3d,
+    type: 3}
+  backToIdle: 1
+  currentTime: 0
 --- !u!1 &857694368
 GameObject:
   m_ObjectHideFlags: 0
