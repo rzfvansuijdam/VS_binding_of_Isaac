@@ -39,10 +39,15 @@ public class EnemyHealth : Health
             {
                 this.alive = false;
                 dieEvent.Invoke();
+                Destroy(this.GetComponent<EnemyMovement>());
+                Destroy(this.GetComponent<BoxCollider2D>());
+                Destroy(this.GetComponent<Rigidbody2D>());
+                Destroy(this.GetComponent<SpawnGutsParticle>());
+                Destroy(this.GetComponent<EnemyCollider>());
+
                 StartCoroutine(DestoryMainObject());
                 bloodGroundEffect.enableEmission = false;
-                Destroy(playerBodyObject);
-                Destroy(this.GetComponent<EnemyMovement>());
+                Destroy(this.gameObject);
             }
         }
     }
